@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-preloader="false" rel="preload">
+			body>*:not(.preloader) {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .loaded body>*:not(.preloader) {
+    transition: opacity 0.5s ease 0s;
+    opacity: 1;
+    visibility: visible;
+  }
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+		<title>Contacts Page</title>
+		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1760707889634"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760707889634">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.min.css?v=1760707889634">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-header="" data-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="/">
+						<img src="./assets/img/logo.svg" alt="Logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Work</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Pages</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a data-button="" class="header__button button" href="#">Let’s talk</a>
+					<button type="button" data-menu="" class="icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page page--contacts">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<h1 class="hero__title visually-hidden">My contacts</h1>
+						<div class="hero__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img loading="eager" alt="Arik" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div class="hero__body">
+							<div class="hero__contacts contacts-hero">
+								<div data-blockheader="" class="contacts-hero__block-header block-header">
+									<span class="block-header__label block-header__label--size-13">Contact</span>
+									<h2 class="block-header__title block-header__title--size-48">Let’s get in touch.</h2>
+								</div>
+								<form class="contacts-hero__form form" data-form="" action="#">
+									<input class="form__input" type="text" name="name" autocomplete="off" data-required="name" data-validate="" placeholder="Name">
+									<input class="form__input" type="email" name="email" data-validate="" autocomplete="off" data-required="email" placeholder="Email">
+									<textarea class="form__input" name="message" data-required="" data-validate="" placeholder="Message"></textarea>
+									<button class="form__button button" type="submit">Send Message</button>
+								</form>
+							</div>
+							<ul class="hero__socials-list list-socials">
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-instagram"></use>
+											</svg>
+										</div>
+										<span>Instagram</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-twitter"></use>
+											</svg>
+										</div>
+										<span>Twitter</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-facebook"></use>
+											</svg>
+										</div>
+										<span>Facebook</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-behance"></use>
+											</svg>
+										</div>
+										<span>Behance</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-dribble"></use>
+											</svg>
+										</div>
+										<span>Dribble</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+								<li class="list-socials__item">
+									<a data-button="" class="button button--dark button--icon button--two-icon" href="#">
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-s-pinterest"></use>
+											</svg>
+										</div>
+										<span>Pinterest</span>
+										<div>
+											<svg>
+												<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+											</svg>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-footer="" data-watcher="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content content-footer">
+						<div class="content-footer__columns">
+							<div class="content-footer__column">
+								<a class="content-footer__logo" href="/">
+									<img src="./assets/img/logo.svg" alt="Logo">
+								</a>
+								<div data-socials="" class="content-footer__socials socials socials--vertical">
+									<ul class="socials__list">
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Twitter</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-twitter"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Instagram</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-instagram"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Dribbble</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-dribble"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Behance</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-behance"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div data-accordions="767.98" class="content-footer__column accordions">
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">Pages</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Home</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Services</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">About</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Contact</a>
+											</li>
+											<li class="content-footer__item">
+												<a class="content-footer__link button button--icon" href="#">
+													<span>More Templates</span>
+													<div>
+														<svg>
+															<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+														</svg>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">CMS</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Work</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Work Single</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Blog</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Blog Post</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">Utility Pages</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">404 Error Page</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Password Protected</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Styleguide</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Licensing</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Changelog</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy copy-footer">
+						<div class="copy-footer__text">
+							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
+						</div>
+						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+							<div>
+								<svg>
+									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+								</svg>
+							</div>
+						</button>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

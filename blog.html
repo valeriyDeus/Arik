@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-preloader="false" rel="preload">
+			body>*:not(.preloader) {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .loaded body>*:not(.preloader) {
+    transition: opacity 0.5s ease 0s;
+    opacity: 1;
+    visibility: visible;
+  }
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+		<title>Blog Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760707889635"></script>
+		<script type="module" crossorigin="" src="./js/letstalk.min.js?v=1760707889635"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760707889635">
+		<link rel="stylesheet" crossorigin="" href="./css/letstalk.min.css?v=1760707889635">
+		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1760707889635">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-header="" data-header-scroll="" class="header">
+				<div class="header__container">
+					<a class="header__logo" href="/">
+						<img src="./assets/img/logo.svg" alt="Logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Work</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Pages</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a data-button="" class="header__button button" href="#">Let’s talk</a>
+					<button type="button" data-menu="" class="icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page page--blog">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div data-blockheader="" class="hero__block-header block-header">
+							<h1 class="block-header__title">Blog</h1>
+							<div class="block-header__text block-header__text--size-24">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem.
+								</p>
+							</div>
+						</div>
+						<div class="hero__items">
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="How to Build a Stunning Website with Framer" src="./assets/img/blog/01.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">How to Build a Stunning Website with Framer</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>
+											Learn how to create an impressive website using Framer with our step-by-step guide.
+										</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="10 website elements for maximum user engagement" src="./assets/img/blog/02.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">10 website elements for maximum user engagement</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>
+											10 website elements to engage users, from intuitive navigation to compelling visuals.
+										</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="The importance of content in driving website traffic" src="./assets/img/blog/03.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">The importance of content in driving website traffic</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="10 common web development mistakes to avoid" src="./assets/img/blog/04.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">10 common web development mistakes to avoid</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>
+											10 common web development mistakes and improve your site`s functionality and user experience.
+										</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="Why responsive web design is critical for your business" src="./assets/img/blog/05.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">Why responsive web design is critical for your business</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>
+											Responsive web design ensures your site looks great and performs well on all devices.
+										</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+							<article data-blog-item="" class="item-blog">
+								<a class="item-blog__image" href="#">
+									<picture>
+										<img loading="lazy" alt="The art of SEO writing: How to write content that ranks on Google" src="./assets/img/blog/06.webp">
+									</picture>
+								</a>
+								<div class="item-blog__info">
+									<span class="item-blog__date">23rd Aug 2023</span>
+									<h3 class="item-blog__title">
+										<a class="item-blog__link-title" href="#">The art of SEO writing: How to write content that ranks on Google</a>
+									</h3>
+									<div class="item-blog__text">
+										<p>
+											Optimize your website with expert tips on writing content that ranks high on Google.
+										</p>
+									</div>
+									<a class="item-blog__link button button--dark" href="#">Webdesign</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<aside data-letstalk="" class="lets-talk">
+				<div data-marquee="" data-marquee-speed="300" data-marquee-space="32" class="lets-talk__line line-talk">
+					<div class="line-talk__item">Let’s talk</div>
+					<div class="line-talk__item">+++</div>
+				</div>
+				<section class="lets-talk__content">
+					<div class="lets-talk__container">
+						<div data-blockheader="" class="lets-talk__block-header block-header">
+							<span class="block-header__label">Project in mind?</span>
+							<h2 class="block-header__title">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div class="block-header__text">
+								<p>Premium web design, webflow, and SEO services to help your business stand out.</p>
+							</div>
+						</div>
+						<a data-button="" class="lets-talk__link button button--icon" href="#">
+							<span>Get in touch</span>
+							<div>
+								<svg>
+									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+								</svg>
+							</div>
+						</a>
+					</div>
+				</section>
+			</aside>
+			<footer data-footer="" data-watcher="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content content-footer">
+						<div class="content-footer__columns">
+							<div class="content-footer__column">
+								<a class="content-footer__logo" href="/">
+									<img src="./assets/img/logo.svg" alt="Logo">
+								</a>
+								<div data-socials="" class="content-footer__socials socials socials--vertical">
+									<ul class="socials__list">
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Twitter</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-twitter"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Instagram</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-instagram"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Dribbble</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-dribble"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+										<li class="socials__item">
+											<a data-button="" class="socials__link button button--social-icon" href="#" target="_blank">
+												<span>Behance</span>
+												<div>
+													<svg>
+														<use xlink:href="./assets/img/spritemap.svg#sprite-s-behance"></use>
+													</svg>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div data-accordions="767.98" class="content-footer__column accordions">
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">Pages</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Home</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Services</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">About</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Contact</a>
+											</li>
+											<li class="content-footer__item">
+												<a class="content-footer__link button button--icon" href="#">
+													<span>More Templates</span>
+													<div>
+														<svg>
+															<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+														</svg>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">CMS</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Work</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Work Single</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Blog</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Blog Post</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+								<details class="content-footer__menu">
+									<summary>
+										<h3 class="content-footer__title">Utility Pages</h3>
+									</summary>
+									<nav class="content-footer__body">
+										<ul class="content-footer__list">
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">404 Error Page</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Password Protected</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Styleguide</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Licensing</a>
+											</li>
+											<li class="content-footer__item">
+												<a href="#" class="content-footer__link">Changelog</a>
+											</li>
+										</ul>
+									</nav>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy copy-footer">
+						<div class="copy-footer__text">
+							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
+						</div>
+						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+							<div>
+								<svg>
+									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+								</svg>
+							</div>
+						</button>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
