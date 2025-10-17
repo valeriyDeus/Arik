@@ -22,8 +22,14 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760708937917"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760708937917">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1760710461194"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
+		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760710461194">
+		<link rel="stylesheet" crossorigin="" href="./css/letstalk.min.css?v=1760710461194">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1760710461194">
+		<link rel="stylesheet" crossorigin="" href="./css/work.min.css?v=1760710461194">
+		<link rel="stylesheet" crossorigin="" href="./css/arrow-down.min.css?v=1760710461194">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -61,10 +67,7 @@
 				<section class="page__hero hero">
 					<div class="hero__container">
 						<div class="hero__image">
-							<picture>
-								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
-								<img width="880" height="769" loading="eager" alt="Arik" src="./assets/img/arik.webp">
-							</picture>
+							<img width="880" height="769" loading="eager" alt="Arik" src="./assets/img/arik.webp">
 						</div>
 						<div data-blockheader="" class="hero__block-header block-header">
 							<h2 class="block-header__title block-header__title--size-160">
@@ -196,10 +199,7 @@
 						<div class="selected-work__items">
 							<article data-work="" class="item-work">
 								<div class="item-work__image">
-									<picture>
-										<source media="(max-width: 600px)" srcset="./assets/img/works/01-600.webp" type="image/webp">
-										<img loading="lazy" alt="Space" src="./assets/img/works/01.webp">
-									</picture>
+									<img loading="lazy" alt="Space" src="./assets/img/works/01.webp">
 								</div>
 								<div class="item-work__info">
 									<h3 class="item-work__title">Space</h3>
@@ -215,10 +215,7 @@
 							</article>
 							<article data-work="" class="item-work">
 								<div class="item-work__image">
-									<picture>
-										<source media="(max-width: 600px)" srcset="./assets/img/works/02-600.webp" type="image/webp">
-										<img loading="lazy" alt="Space" src="./assets/img/works/02.webp">
-									</picture>
+									<img loading="lazy" alt="Space" src="./assets/img/works/02.webp">
 								</div>
 								<div class="item-work__info">
 									<h3 class="item-work__title">Space</h3>
@@ -234,10 +231,7 @@
 							</article>
 							<article data-work="" class="item-work">
 								<div class="item-work__image">
-									<picture>
-										<source media="(max-width: 600px)" srcset="./assets/img/works/03-600.webp" type="image/webp">
-										<img loading="lazy" alt="Sonic" src="./assets/img/works/03.webp">
-									</picture>
+									<img loading="lazy" alt="Sonic" src="./assets/img/works/03.webp">
 								</div>
 								<div class="item-work__info">
 									<h3 class="item-work__title">Sonic</h3>
@@ -253,10 +247,7 @@
 							</article>
 							<article data-work="" class="item-work">
 								<div class="item-work__image">
-									<picture>
-										<source media="(max-width: 600px)" srcset="./assets/img/works/04-600.webp" type="image/webp">
-										<img loading="lazy" alt="Solar" src="./assets/img/works/04.webp">
-									</picture>
+									<img loading="lazy" alt="Solar" src="./assets/img/works/04.webp">
 								</div>
 								<div class="item-work__info">
 									<h3 class="item-work__title">Solar</h3>
@@ -425,9 +416,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/01.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/01.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">John Smith</div>
@@ -453,9 +442,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/02.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/02.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">David Kim</div>
@@ -481,9 +468,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/03.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/03.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">Karen Lee</div>
@@ -509,9 +494,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/04.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/04.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">Andrew Thompson</div>
@@ -537,9 +520,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/05.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/05.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">Emily Davis</div>
@@ -565,9 +546,7 @@
 								</div>
 								<div class="item-review__author author-review">
 									<div class="author-review__image">
-										<picture>
-											<img loading="lazy" alt="Client image" src="./assets/img/reviews/06.webp">
-										</picture>
+										<img loading="lazy" alt="Client image" src="./assets/img/reviews/06.webp">
 									</div>
 									<div class="author-review__body">
 										<div class="author-review__name">Ryan Chen</div>
@@ -581,10 +560,7 @@
 				<section class="page__about-home home-about">
 					<div class="home-about__header">
 						<div class="home-about__image">
-							<picture>
-								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
-								<img loading="lazy" alt="Arik" src="./assets/img/arik.webp">
-							</picture>
+							<img loading="lazy" alt="Arik" src="./assets/img/arik.webp">
 						</div>
 						<div data-marquee="" data-marquee-speed="300" class="home-about__name name-about">
 							<div class="name-about__item">
