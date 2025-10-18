@@ -24,10 +24,10 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>About Page</title>
-		<script type="module" crossorigin="" src="./js/about.min.js?v=1760781915482"></script>
+		<script type="module" crossorigin="" src="./js/about.min.js?v=1760782338834"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915482">
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760782338834">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -64,7 +64,7 @@
 				</div>
 			</header>
 			<main class="page page--about">
-				<section class="about__hero-about about-hero">
+				<section class="about__hero-about about-hero" data-hero="">
 					<div class="about-hero__container">
 						<div class="about-hero__image" data-dynamic-adapt=".about-hero__info,767.98,1">
 							<img loading="lazy" alt="Arik" src="./assets/img/arik.webp">
@@ -402,7 +402,7 @@
 						<div class="copy-footer__text">
 							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
 						</div>
-						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+						<button data-goto="[data-hero]" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
 							<div>
 								<svg>
 									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>

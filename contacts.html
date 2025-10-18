@@ -24,9 +24,9 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Contacts Page</title>
-		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1760781915483"></script>
+		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1760782338836"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915483">
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760782338836">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,7 +63,7 @@
 				</div>
 			</header>
 			<main class="page page--contacts">
-				<section class="page__hero-contacts contacts-hero">
+				<section class="page__hero-contacts contacts-hero" data-hero="">
 					<div class="contacts-hero__container">
 						<h1 class="contacts-hero__title visually-hidden">My contacts</h1>
 						<div class="contacts-hero__image">
@@ -315,7 +315,7 @@
 						<div class="copy-footer__text">
 							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
 						</div>
-						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+						<button data-goto="[data-hero]" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
 							<div>
 								<svg>
 									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>

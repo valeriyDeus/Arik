@@ -24,10 +24,10 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Services Page</title>
-		<script type="module" crossorigin="" src="./js/services.min.js?v=1760781915484"></script>
+		<script type="module" crossorigin="" src="./js/services.min.js?v=1760782338840"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915484">
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760782338840">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -64,7 +64,7 @@
 				</div>
 			</header>
 			<main class="page page--services">
-				<section class="page__hero-services services-hero">
+				<section class="page__hero-services services-hero" data-hero="">
 					<div class="services-hero__container">
 						<div data-blockheader="" class="services-hero__block-header block-header">
 							<h1 class="block-header__title">
@@ -422,7 +422,7 @@
 						<div class="copy-footer__text">
 							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
 						</div>
-						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+						<button data-goto="[data-hero]" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
 							<div>
 								<svg>
 									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>

@@ -24,9 +24,9 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Pricing Page</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760781915480"></script>
-		<script type="module" crossorigin="" src="./js/letstalk.min.js?v=1760781915480"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915480">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760782338831"></script>
+		<script type="module" crossorigin="" src="./js/letstalk.min.js?v=1760782338831"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760782338831">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,7 +63,7 @@
 				</div>
 			</header>
 			<main class="page page--pricing">
-				<section class="page__hero-pricing pricing-hero">
+				<section class="page__hero-pricing pricing-hero" data-hero="">
 					<div class="pricing-hero__container">
 						<div data-blockheader="" class="pricing-hero__block-header block-header">
 							<div class="block-header__label block-header__label--size-13">Pricing</div>
@@ -367,7 +367,7 @@
 						<div class="copy-footer__text">
 							<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
 						</div>
-						<button data-goto=".hero" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
+						<button data-goto="[data-hero]" data-goto-header="" class="to-top button button--icon button--text-icon button--to-top" aria-label="To top" type="button">
 							<div>
 								<svg>
 									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
