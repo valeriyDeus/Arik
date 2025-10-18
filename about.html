@@ -24,10 +24,10 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>About Page</title>
-		<script type="module" defer crossorigin="" src="./js/about.min.js?v=1760729848956"></script>
+		<script type="module" crossorigin="" src="./js/about.min.js?v=1760781915482"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760729848956">
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915482">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -64,13 +64,13 @@
 				</div>
 			</header>
 			<main class="page page--about">
-				<section class="about__hero hero">
-					<div class="hero__container">
-						<div class="hero__image" data-dynamic-adapt=".hero__info,767.98,1">
-							<img loading="eager" alt="Arik" src="./assets/img/arik.webp">
+				<section class="about__hero-about about-hero">
+					<div class="about-hero__container">
+						<div class="about-hero__image" data-dynamic-adapt=".about-hero__info,767.98,1">
+							<img loading="lazy" alt="Arik" src="./assets/img/arik.webp">
 						</div>
-						<div class="hero__info">
-							<div data-blockheader="" class="hero__block-header block-header">
+						<div class="about-hero__info">
+							<div data-blockheader="" class="about-hero__block-header block-header">
 								<h1 class="block-header__title">
 									Arik
 									<span>Andersson</span>
@@ -81,7 +81,7 @@
 									</p>
 								</div>
 							</div>
-							<div data-arrow-down="" class="hero__arrow-down arrow-down" aria-hidden="true">
+							<div data-arrow-down="" class="about-hero__arrow-down arrow-down" aria-hidden="true">
 								<div class="arrow-down__icon">
 									<svg>
 										<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
@@ -89,7 +89,7 @@
 								</div>
 								<div class="arrow-down__text">About Me</div>
 							</div>
-							<article class="hero__about-me about-me">
+							<article class="about-hero__about-me about-me">
 								<div class="about-me__info info-about">
 									<div class="info-about__label">Arik Andersson</div>
 									<h2 class="info-about__title">Your Partner in Bringing Your Web Design Vision to Life</h2>
@@ -413,5 +413,66 @@
 				</div>
 			</footer>
 		</div>
+		<ul id="dev-panel">
+			<li>
+				<a href="works.html">works</a>
+			</li>
+			<li>
+				<a href="services.html">services</a>
+			</li>
+			<li>
+				<a href="pricing.html">pricing</a>
+			</li>
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="contacts.html">contacts</a>
+			</li>
+			<li>
+				<a href="blog.html">blog</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+		</ul>
+		<style>
+			#dev-panel{
+				position: fixed;
+				left: 10px;
+				padding: 15px 25px 15px 15px;
+				border-radius: 0 10px 10px 0;
+				top: 10%;
+				color: #000;
+				background-color: rgba(255, 255, 255, 0.5);
+				transform: translate(-100%, 0px);
+				max-height: 80svh;
+				overflow: auto;
+				transition: all 300ms;
+				z-index: 9999;
+				font-family: Roboto', sans-serif;
+			}
+			#dev-panel li{
+				list-style:none;
+			}
+			#dev-panel hr{
+				border-bottom: 1px solid #000;
+			}
+			#dev-panel:hover{
+				left: 0px;
+				transform: translate(0, 0);
+			}
+			#dev-panel a{
+				text-decoration: none;
+				text-transform: capitalize;
+				color: inherit;
+			}
+			#dev-panel a:hover {
+				text-decoration: underline;
+			}
+			#dev-panel li:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		</style>
 	</body>
 </html>

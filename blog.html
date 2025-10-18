@@ -24,9 +24,9 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Blog Page</title>
-		<script type="module" defer crossorigin="" src="./js/app.min.js?v=1760729848954"></script>
-		<script type="module" defer crossorigin="" src="./js/letstalk.min.js?v=1760729848954"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760729848954">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760781915486"></script>
+		<script type="module" crossorigin="" src="./js/letstalk.min.js?v=1760781915486"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915486">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,9 +63,9 @@
 				</div>
 			</header>
 			<main class="page page--blog">
-				<section class="page__hero hero">
-					<div class="hero__container">
-						<div data-blockheader="" class="hero__block-header block-header">
+				<section class="page__hero-blog blog-hero">
+					<div class="blog-hero__container">
+						<div data-blockheader="" class="blog-hero__block-header block-header">
 							<h1 class="block-header__title">Blog</h1>
 							<div class="block-header__text block-header__text--size-24">
 								<p>
@@ -73,7 +73,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="hero__items">
+						<div class="blog-hero__items">
 							<article data-blog-item="" class="item-blog">
 								<a class="item-blog__image" href="#">
 									<img loading="lazy" alt="How to Build a Stunning Website with Framer" src="./assets/img/blog/01.webp">
@@ -354,5 +354,66 @@
 				</div>
 			</footer>
 		</div>
+		<ul id="dev-panel">
+			<li>
+				<a href="works.html">works</a>
+			</li>
+			<li>
+				<a href="services.html">services</a>
+			</li>
+			<li>
+				<a href="pricing.html">pricing</a>
+			</li>
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="contacts.html">contacts</a>
+			</li>
+			<li>
+				<a href="blog.html">blog</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+		</ul>
+		<style>
+			#dev-panel{
+				position: fixed;
+				left: 10px;
+				padding: 15px 25px 15px 15px;
+				border-radius: 0 10px 10px 0;
+				top: 10%;
+				color: #000;
+				background-color: rgba(255, 255, 255, 0.5);
+				transform: translate(-100%, 0px);
+				max-height: 80svh;
+				overflow: auto;
+				transition: all 300ms;
+				z-index: 9999;
+				font-family: Roboto', sans-serif;
+			}
+			#dev-panel li{
+				list-style:none;
+			}
+			#dev-panel hr{
+				border-bottom: 1px solid #000;
+			}
+			#dev-panel:hover{
+				left: 0px;
+				transform: translate(0, 0);
+			}
+			#dev-panel a{
+				text-decoration: none;
+				text-transform: capitalize;
+				color: inherit;
+			}
+			#dev-panel a:hover {
+				text-decoration: underline;
+			}
+			#dev-panel li:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		</style>
 	</body>
 </html>

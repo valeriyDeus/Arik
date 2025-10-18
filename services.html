@@ -24,10 +24,10 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 		<title>Services Page</title>
-		<script type="module" defer crossorigin="" src="./js/services.min.js?v=1760729848957"></script>
+		<script type="module" crossorigin="" src="./js/services.min.js?v=1760781915484"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/letstalk.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760729848957">
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1760781915484">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -64,9 +64,9 @@
 				</div>
 			</header>
 			<main class="page page--services">
-				<section class="page__hero hero">
-					<div class="hero__container">
-						<div data-blockheader="" class="hero__block-header block-header">
+				<section class="page__hero-services services-hero">
+					<div class="services-hero__container">
+						<div data-blockheader="" class="services-hero__block-header block-header">
 							<h1 class="block-header__title">
 								Web
 								<br>
@@ -79,7 +79,7 @@
 								</p>
 							</div>
 						</div>
-						<div data-arrow-down="" class="hero__arrow-down arrow-down" aria-hidden="true">
+						<div data-arrow-down="" class="services-hero__arrow-down arrow-down" aria-hidden="true">
 							<div class="arrow-down__icon">
 								<svg>
 									<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
@@ -177,8 +177,7 @@
 								<div class="item-services__header">
 									<div class="item-services__label">Development</div>
 									<h3 class="item-services__title">
-										<a class="item-services__link-title" href="#">Developing High-Performance Websites and Web
-                Applications</a>
+										<a class="item-services__link-title" href="#">Developing High-Performance Websites and Web Applications</a>
 									</h3>
 								</div>
 								<a class="item-services__image" href="#">
@@ -434,5 +433,66 @@
 				</div>
 			</footer>
 		</div>
+		<ul id="dev-panel">
+			<li>
+				<a href="works.html">works</a>
+			</li>
+			<li>
+				<a href="services.html">services</a>
+			</li>
+			<li>
+				<a href="pricing.html">pricing</a>
+			</li>
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="contacts.html">contacts</a>
+			</li>
+			<li>
+				<a href="blog.html">blog</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+		</ul>
+		<style>
+			#dev-panel{
+				position: fixed;
+				left: 10px;
+				padding: 15px 25px 15px 15px;
+				border-radius: 0 10px 10px 0;
+				top: 10%;
+				color: #000;
+				background-color: rgba(255, 255, 255, 0.5);
+				transform: translate(-100%, 0px);
+				max-height: 80svh;
+				overflow: auto;
+				transition: all 300ms;
+				z-index: 9999;
+				font-family: Roboto', sans-serif;
+			}
+			#dev-panel li{
+				list-style:none;
+			}
+			#dev-panel hr{
+				border-bottom: 1px solid #000;
+			}
+			#dev-panel:hover{
+				left: 0px;
+				transform: translate(0, 0);
+			}
+			#dev-panel a{
+				text-decoration: none;
+				text-transform: capitalize;
+				color: inherit;
+			}
+			#dev-panel a:hover {
+				text-decoration: underline;
+			}
+			#dev-panel li:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		</style>
 	</body>
 </html>
